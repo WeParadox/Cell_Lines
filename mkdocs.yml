@@ -1,0 +1,37 @@
+site_name: Cell Line Repository
+site_description: Culture conditions, handling notes, and references for common cell lines
+repo_url: https://github.com/<YOUR_ORG_OR_USER>/<YOUR_REPO>
+repo_name: <YOUR_REPO>
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - content.action.edit
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Cell lines:
+      - HEK293: cell-lines/hek293.md
+      - RAW 264.7: cell-lines/raw-264-7.md
+  - Schema: schema.md
+  - Contributing: contributing.md
