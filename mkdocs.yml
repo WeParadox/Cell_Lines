@@ -27,3 +27,11 @@ markdown_extensions:
       permalink: true
   - pymdownx.superfences
   - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Cell lines:
+      - HEK292: cell-lines/hek292.md
+      - RAW264.7: cell-lines/raw264.7.md
+  - Schema: schema.md
+  - Contributing: contributing.md
