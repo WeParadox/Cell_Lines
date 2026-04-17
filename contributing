@@ -1,0 +1,13 @@
+# Contributing
+
+## Rules
+1. **Cite sources** for non-trivial claims (medium/supplements/BSL/doubling time/genotype).
+2. If you can’t confirm something, write **Unknown** and add it under **Data needed**.
+3. Prefer: ATCC/DSMZ/JCRB/ECACC → RRID → peer-reviewed papers → reputable protocols.
+4. Keep protocols **high-level** and non-proprietary.
+
+## Add a new cell line
+1. Copy an existing page in `docs/cell-lines/`
+2. Rename the file (slug), e.g. `a549.md`
+3. Fill in sections + references
+4. Open a Pull Request
